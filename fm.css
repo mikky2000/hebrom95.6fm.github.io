@@ -1,0 +1,557 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html, body{
+  background-color: #000;
+  /*overflow: hidden;*/
+  overflow-x: hidden;
+
+
+}
+body{
+  position: relative;
+}
+
+.Main-body{
+  height: 100vh;
+  width: 100%;
+ background: linear-gradient(black, #8e44ad,black);
+ position:relative;
+
+
+
+}
+
+#bar1{
+  overflow: hidden;
+  background-color: #636e72;
+  height: 35px;
+}
+#bar1 a{
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+#fbookPix,#twitterPix,#ytube{
+  width: 25px;
+  height: 25px;
+  border-radius: 25px;
+  position: relative;
+  top: -5px;
+  left: 630px;
+  background: #636e72;
+}
+
+
+#FM{
+  position: relative;
+  left: 245px;
+  font-size: 12px;
+}
+
+
+#bar2{
+  overflow: hidden;
+  background-color: black;
+
+}
+#bar2 a{
+ float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  padding: 20px 20px;
+}
+
+#hebronPix{
+  float: left;
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+
+}
+
+.nav{
+  /*border-bottom: 1px solid #EAEAEB;*/
+  text-align: right;
+  height: 70px;
+  line-height: 70px;
+}
+
+.menu{
+  margin: 0 30px 0 0;
+  display: none;
+}
+
+.menu a{
+  text-decoration: none;
+  color: white;
+  margin: 0 10px;
+  line-height: 70px;
+}
+
+label{
+  margin: 0 40px 0 0;
+  font-size: 30px;
+  line-height: 70px;
+  color: white;
+  display: none;
+}
+
+#toggle{
+  display: none;
+}
+
+.PLAYER{
+  width: 100%;
+  height: 100px;
+  display: none;
+}
+
+
+
+#playBtn1{
+  width: 60px;
+  height: 60px;
+  position: relative;
+  left: 500px;
+  border-radius: 60px;
+  background-color: red;
+  border: none;
+  background-image: url("playIcon.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50px;
+}
+
+#playBtn2{
+  width: 100px;
+  height: 60px;
+  position: relative;
+  top: -1px;
+  left: 525px;
+  background-image: url("btn.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+}
+
+.SearchBar{
+  width: 100%;
+  position: relative;
+  top: -1px;
+  display: none;
+
+}
+
+.SearchBar #Searchbar{
+  width: 89.5%;
+  height: 45px;
+}
+
+#searchBTN{
+  width: 70px;
+  height: 45px;
+  position: relative;
+  left: -4px;
+  color: white;
+  background-color: red;
+}
+
+#CloseBTN{
+  width: 70px;
+  height: 45px;
+  position: absolute;
+  left: 1340px;
+  color: white;
+  background-color: red;
+  background-image: url("cross1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 20px;
+}
+
+#slideshow {
+    margin: 50px auto;
+    position: relative;
+    width: 95%;
+    height: 455px;
+    top:-60px;
+    padding: 5px;
+    /*box-shadow: 0 0 20px rgba(0,0,0,0.4);*/
+
+}
+#mypix1,#mypix2,#mypix3{
+  width: 100%;
+  height: 470px;
+  border-radius: 20px;
+}
+
+
+#slideshow > div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+
+.videoSection{
+  margin-top: 50px auto;
+  position: relative;
+  width: 100%;
+  height: 600px;
+  top:-60px;
+  background-color: #222f3e;
+}
+
+#Board{
+  height: 35px;
+  width: 150px;
+  background-color: #b71540;
+  position: relative;
+  top: 30px;
+  left: 50px;
+}
+#Board p{
+  text-align: center;
+   color: white;
+   padding-top: 10px;
+   font-size: 12px;
+}
+#Board2{
+  height: 5px;
+  width: 85%;
+  background-color: #b71540;
+  position: relative;
+  top: 25px;
+  left: 200px;
+}
+
+#ListofVideos{
+
+  margin: 50px auto;
+  position: relative;
+  top: 50px;
+  width: 95%;
+  height: 500px;
+  top:-60px;
+  padding: 5px;
+
+
+  /*box-shadow: 0 0 20px rgba(0,0,0,0.4);*/
+
+
+}
+#firstvideo,#secondvideo,#thirdvideo{
+  position: relative;
+  top: 50px;
+  width: 444.4px;
+  height: 415px;
+
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 740px){
+
+
+#bar1{
+  display: none;
+}
+#bar2 a{
+  display: none;
+}
+
+#bar2{
+  width: 100%;
+  height: 90px;
+}
+
+#hebronPix{
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  float: left;
+}
+
+.nav{
+  position: relative;
+  top: -80px;
+}
+
+.menu{
+  text-align: center;
+  width: 100%;
+  display: none;
+  background: grey;
+  border-radius: 12px;
+  margin-top: 30px;
+
+}
+
+.menu a{
+  display: block;
+  border-bottom: 1px solid #EAEAEB;
+  margin: 0;
+}
+
+label{
+  display: block;
+  cursor: pointer;
+}
+
+/*
+#toggle:checked + .menu{
+  display: block;
+
+
+}
+*/
+.PLAYER{
+  width: 100%;
+  height: 100px;
+  display: block;
+  transform: translate(78%);
+  position: relative;
+  top: -60px;
+
+
+}
+
+#playBtn{
+  width: 60px;
+  height: 60px;
+  border-radius: 60px;
+  background-color: red;
+  border: none;
+  background-image: url("playIcon.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50px;
+
+}
+
+#closeMenu{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+#slideshow {
+    margin: 50px auto;
+    position: relative;
+    width: 100%;
+    height: 455px;
+    top:-140px;
+    padding: 5px;
+    /*box-shadow: 0 0 20px rgba(0,0,0,0.4);*/
+
+}
+#mypix1,#mypix2,#mypix3{
+  width: 100%;
+  height: 350px;
+  border-radius: 20px;
+}
+
+
+#slideshow > div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+
+
+
+#playBtn1,#playBtn2{
+  display: none;
+}
+
+.videoSection{
+  margin-top: 50px auto;
+  position: relative;
+  width: 100%;
+  height: 1000px;
+  top:-60px;
+  background-color: #222f3e;
+}
+
+
+#ListofVideos{
+
+  margin: 50px auto;
+  position: relative;
+  top: 50px;
+  width: 95%;
+  height: 455px;
+  top:-75px;
+  padding: 5px;
+
+  /*box-shadow: 0 0 20px rgba(0,0,0,0.4);*/
+
+
+}
+#firstvideo,#secondvideo,#thirdvideo{
+  position: relative;
+  top: 50px;
+  width: 100%;
+  height: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media only screen and (max-width: 768px){
+
+  .SearchBar{
+    width: 100%;
+    position: relative;
+    top: -1px;
+    display: none;
+
+  }
+
+  .SearchBar #Searchbar{
+    width: 80%;
+    height: 45px;
+  }
+
+  #searchBTN{
+    width: 70px;
+    height: 45px;
+    position: relative;
+    left: -4px;
+    color: white;
+    background-color: red;
+  }
+
+  #CloseBTN{
+    width: 70px;
+    height: 45px;
+    position: absolute;
+    left: 680px;
+    color: white;
+    background-color: red;
+    background-image: url("cross1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px;
+  }
+
+
+  #hebronPix{
+    width: 77px;
+    height: 90px;
+    border-radius: 10px;
+    float: left;
+  }
+
+  #bar1{
+    overflow: hidden;
+    background-color: #636e72;
+    height: 45px;
+  }
+  #bar1 a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 15px;
+  }
+
+
+  .videoSection{
+    margin-top: 50px auto;
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    top:-60px;
+    background-color: #222f3e;
+  }
+
+
+  #ListofVideos{
+
+    margin: 50px auto;
+    position: relative;
+    top: 50px;
+    width: 95%;
+    height: 455px;
+    top:-75px;
+    padding: 5px;
+
+    /*box-shadow: 0 0 20px rgba(0,0,0,0.4);*/
+
+
+  }
+  #firstvideo,#secondvideo,#thirdvideo{
+    position: relative;
+    top: 50px;
+    width: 100%;
+    height: 300px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+@media only screen and (max-width: 1024px){
+
+
+
+}
